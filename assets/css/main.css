@@ -1716,7 +1716,8 @@
 	}
 
 	h5 {
-		font-size: 0.9em;
+		font-size: 1em;
+		letter-spacing: 0em;
 	}
 
 	h6 {
@@ -1737,6 +1738,7 @@
 
 	blockquote {
 		font-style: italic;
+		font-size: 16px !important;
 		margin: 0 0 2em 0;
 	}
 
@@ -2156,7 +2158,7 @@
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2em 0;
+		margin: 0 0 .5em 0;
 		padding-left: 1em;
 		padding-top:.5em
 	}
@@ -2811,6 +2813,9 @@
 		visibility: hidden;
 		width: 20em;
 		z-index: 10002;
+		font-weight:bold;
+		text-transform: uppercase;
+		letter-spacing: 2px;
 	}
 
 		#menu > ul {
@@ -3128,7 +3133,7 @@
 
 		#two blockquote br {
 			display: none;
-		}
+		}blockquote
 
 	}
 
@@ -3154,12 +3159,16 @@
 		}
 
 		#footer .icon {
-			color: #f58d71;
+			color: white;
 		}
 
 		#footer a {
 			color: #c8e7f0;
 			text-decoration: none;
+		}
+		#footer a:hover {
+			color: #585858;
+			text-decoration: underline;
 		}
 
 		#footer ul li {
@@ -3169,8 +3178,8 @@
 		#footer .copyright {
 			display: inline-block;
 			color: #a7d9e7;
-			font-size: 0.75em;
-			margin: 0 0 2em 0;
+			font-size: 1em;
+			margin: 1em 0 2em 0;
 			padding: 0;
 			text-align: center;
 			border-top: 1px solid rgba(255, 255, 255, 0.25);
