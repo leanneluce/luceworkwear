@@ -2758,7 +2758,7 @@
 		}
 
 		#header {
-			height: 44px;
+			height: 80px;
 			line-height: 44px;
 		}
 
@@ -3229,5 +3229,5 @@
 
 		#mc_embed_signup form {
 			text-align:center !important;
-			
+
 		}
