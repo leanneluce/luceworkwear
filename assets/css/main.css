@@ -3227,7 +3227,19 @@
 
 		}
 
+/* Mailchimp added css */
 		#mc_embed_signup form {
 			text-align:center !important;
-
+		}
+		#mc_embed_signup .button {
+			height: 50px !important;
+			display: inline !important;
+			width: 200px !important;
+			margin:0px;
+			display:inline !important;
+		}
+		#mc_embed_signup input.button {
+			display:inline !important;
+			margin:0px !important;
+			width: 200px !important;
 		}
